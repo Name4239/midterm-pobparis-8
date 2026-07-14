@@ -40,7 +40,7 @@ console.log(input)
           </div>
           <input onChange={(e)=>{setInput(e.target.value)}}
             type="text"
-            className=" w-[400px] mb-4 "
+            className=" w-[400px] mb-4 bg-amber-50 opacity-30  rounded-2xl "
             placeholder="กรอกได้แต่กดไม่ได้"
           ></input>{" "}
           <button  onClick={showText} className="border w-10 rounded-2xl bg-blue-300 hover:bg-yellow-300">
